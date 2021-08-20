@@ -1,7 +1,7 @@
-nomeDoFulano = "Matheus"
-nomeDoBeltrano = "Luiz"
+nomeDoFulano = "Caroline"
+nomeDoBeltrano = "caroline"
 
-mesmoNome = (nomeDoFulano == nomeDoBeltrano)
+mesmoNome = (nomeDoFulano.toUpperCase() == nomeDoBeltrano.toUpperCase())
 console.log("Primeiro nome: " + nomeDoFulano)
 console.log("Segundo nome: " + nomeDoBeltrano)
 console.log("Primeiro nome é igual ao segundo nome? " + (mesmoNome?"sim":"não"))
